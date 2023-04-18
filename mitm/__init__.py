@@ -8,11 +8,12 @@ Docs: https://synchronizing.github.io/mitm/
 __author__ = "Felipe Faria"
 __project__ = "mitm"
 
+
 import pathlib
 import appdirs
 from pbr.version import VersionInfo
 
-__version__ = VersionInfo(__project__).release_string()
+__version__ = "1.9.9"
 __data__ = pathlib.Path(appdirs.user_data_dir(__package__, __author__))
 
 import logging
